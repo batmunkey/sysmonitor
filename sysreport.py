@@ -427,7 +427,7 @@ def main():
     setTime()
     instantiateLogger()
     pythonSystemStats()
-    sshGetCreds("")
+    sshGetCreds("SERVER")
     sshLogin(ip, uname)
     runCommands()
     sendEmail()
